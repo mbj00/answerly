@@ -1,0 +1,103 @@
+.form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    width: 70vw;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.headerImg{
+}
+
+.headerImage{
+  height: 450px;
+  background-image: url("public/header.jpg"); 
+  background-size: cover;
+}
+
+.headerText{
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.headerHeading{
+    height: inherit;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerHeading h2{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.headerHeading button{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    font-weight: 300;
+    color: darkslategray;
+}
+
+.author{
+    font-size: small;
+    color: darkslategrey;
+    font-style: italic;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsHeading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: gray;
+}
